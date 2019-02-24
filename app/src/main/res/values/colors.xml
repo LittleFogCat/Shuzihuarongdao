@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="cubeViewBg">#ddc4a8</color>
+    <color name="menuBg">#edd4b8</color>
+    <color name="cubeViewStroke">#aa8833</color>
+    <color name="boardViewBg">#f4dabb</color>
+    <color name="menuItemText">#765233</color>
+</resources>

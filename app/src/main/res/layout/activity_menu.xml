@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/menuBg"
+    tools:context=".MenuActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:text="@string/app_name"
+        android:textColor="@color/menuItemText"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvStartGame"
+        style="@style/MenuItemStyle"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:text="@string/start_game" />
+
+    <TextView
+        android:id="@+id/tvHighScore"
+        style="@style/MenuItemStyle"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvStartGame"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/high_score" />
+
+    <TextView
+        android:id="@+id/tvExit"
+        style="@style/MenuItemStyle"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvHighScore"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="退出游戏" />
+
+</RelativeLayout>

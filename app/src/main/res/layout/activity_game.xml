@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cubeViewBg"
+    tools:context=".main.GameActivity">
+
+    <top.littlefogcat.shuzihuarongdao.main.BoardView
+        android:id="@+id/board"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_gravity="center"
+        android:background="@color/boardViewBg" />
+
+    <TextView
+        android:id="@+id/tvCheat"
+        android:layout_width="10dp"
+        android:layout_height="10dp" />
+
+    <TextView
+        android:id="@+id/mask"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/cubeViewBg"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="正在生成棋盘..."
+        android:textSize="48sp" />
+
+</FrameLayout>
