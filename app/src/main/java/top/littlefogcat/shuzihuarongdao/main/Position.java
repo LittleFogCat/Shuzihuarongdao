@@ -29,7 +29,7 @@ class Position {
     }
 
     /**
-     * 下一个位置
+     * 移动到下一个位置
      */
     boolean moveToNextPosition() {
         if (x < sizeX - 1) {
@@ -40,14 +40,6 @@ class Position {
         } else {
             return false;
         }
-        return true;
-    }
-
-    boolean moveUp() {
-        if (y == 0) {
-            return false;
-        }
-        y -= 1;
         return true;
     }
 
